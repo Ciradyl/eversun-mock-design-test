@@ -1,0 +1,178 @@
+<!--
+AUTHOR: Lionel Kerwin Ejorango
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Eversun Exam</title>
+
+    <!-- Style Sheet-->
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/cta.css" />
+    <link rel="stylesheet" href="css/services.css" />
+    <link rel="stylesheet" href="css/holidays.css" />
+    <link rel="stylesheet" href="css/requests.css" />
+
+
+
+    <!-- Font Awesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500&family=League+Spartan:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <!-- Javascript sripts-->
+    <script src="functions/date-time.js" type="text/javascript"></script>
+
+</head>
+
+<body>
+    <main>
+        <!--Header Component-->
+        <section class="header-layout">
+            <div class="header-title">
+                <i class="fa-solid fa-bars" style="size: 24px;"></i>
+                <h1 id="header-title">Home</h1>
+            </div>
+            <a href="" class="notifcation">
+                <i class="fa-regular fa-bell" style="size: 24px;"></i>
+            </a>
+        </section>
+
+        <!--Content Components-->
+        <section>
+            <!-- CTA Component-->
+            <section class="container__cta">
+                <!-- Time-Shift -->
+                <div class="cta-time">
+                    <div id="clock" class="cta-clock">
+                        <div id="time" class="cta-title"></div>
+                        <div class="cta-shift">11:00 AM - 7:00 PM</div>
+                    </div>
+                </div>
+                <!-- Status-Expand -->
+                <div class="cta-status">
+                    <div class="cta-status__title">
+                        <div class="cta-status__title-text">Clocked In</div>
+                    </div>
+                    <div class="cta-status__see-more">
+                        <a href="" class="header-expand">See More</a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Services Component -->
+            <section class="container__services">
+                <div class="container-header">
+                    <div class="container-header-title">Services</div>
+                    <div class="see-more-content">
+                        <a href="" class="header-expand">Scroll see more</a>
+                    </div>
+                </div>
+                <!--Card Lists-->
+                <div class="services-cards">
+                    <div class="services-card__container" style="background: #7ABFFF;">
+                        <i class="fa-solid fa-calendar-days"></i>
+                        <div class="services-card__container-title">Attendance</div>
+                    </div>
+                    <div class="services-card__container" style="background: #FFF27E;">
+                        <i class="fa-solid fa-wallet"></i>
+                        <div class="services-card__container-title">Payslips</div>
+                    </div>
+                    <div class="services-card__container" style="background: #39EAA0;">
+                        <i class="fa-solid fa-calendar"></i>
+                        <div class="services-card__container-title">Leaves</div>
+                    </div>
+                    <div class="services-card__container" style="background: #BF8BFF;">
+                        <i class="fa-solid fa-money-bill"></i>
+                        <div class="services-card__container-title">Reimbursement</div>
+                    </div>
+                    <div class="services-card__container" style="background: #CCFF8B;">
+                        <i class="fa-solid fa-clock"></i>
+                        <div class="services-card__container-title">Time Logs</div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Holidays Component -->
+            <section class="container__holidays">
+                <div class="container-header">
+                    <div class="container-header-title">Upcoming Holidays</div>
+                    <div class="see-more-content">
+                        <a href="" class="header-expand">See All</a>
+                    </div>
+                </div>
+                <!--Card Lists-->
+                <div class="holidays-cards">
+                    <div class="holidays-card__container">
+                        <div class="holidays-card__container-date">DEC<br>07</div>
+                        <div class="holidays-card__container-title">Holiday</div>
+                        <div class="holidays-card__container-subtitle">National</div>
+                    </div>
+                    <div class="holidays-card__container">
+                        <div class="holidays-card__container-date">DEC<br>07</div>
+                        <div class="holidays-card__container-title">Holiday</div>
+                        <div class="holidays-card__container-subtitle">National</div>
+                    </div>
+                    <div class="holidays-card__container">
+                        <div class="holidays-card__container-date">DEC<br>07</div>
+                        <div class="holidays-card__container-title">Holiday</div>
+                        <div class="holidays-card__container-subtitle">National</div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Requests Component-->
+            <section class="container__requests">
+                <div class="container-header">
+                    <div class="container-header-title">Requests Made</div>
+                    <div class="see-more-content">
+                        <a href="" class="header-expand">See All</a>
+                    </div>
+                </div>
+
+                <!-- Card Lists-->
+                <div class="requests-cards">
+                    <div class="requests-card__container">
+                        <div class="requests-card__container-icon">
+                            <i class="fa-solid fa-stethoscope requests-card__container-icon-icon"
+                                style="size: 28px; background: #39EAA0;"></i>
+                        </div>
+                        <div class="requests-card__container-title">Sick Leave</div>
+                        <div class="requests-card__container-subtitle">Dec 07 2023</div>
+                    </div>
+
+                    <div class="requests-card__container">
+                        <div class="requests-card__container-icon">
+                            <i class="fa-solid fa-stethoscope requests-card__container-icon-icon"
+                                style="size: 28px; background: #39EAA0;"></i>
+                        </div>
+                        <div class="requests-card__container-title">Sick Leave</div>
+                        <div class="requests-card__container-subtitle">Dec 07 2023</div>
+                    </div>
+
+                    <div class="requests-card__container">
+                        <div class="requests-card__container-icon">
+                            <i class="fa-solid fa-money-bill requests-card__container-icon-icon"
+                                style="size: 28px; background: #BF8BFF;"></i>
+                        </div>
+                        <div class="requests-card__container-title">Reimbursement</div>
+                        <div class="requests-card__container-subtitle">Dec 07 2023</div>
+                    </div>
+
+                </div>
+            </section>
+        </section>
+    </main>
+</body>
